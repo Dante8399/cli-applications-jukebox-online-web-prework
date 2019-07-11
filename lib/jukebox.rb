@@ -7,4 +7,7 @@ users_name = gets.chomp
 
 puts say_hello(users_name)
 
-def helper_method
+def help
+  puts
+  "I accept the following commands
+  - help :"
